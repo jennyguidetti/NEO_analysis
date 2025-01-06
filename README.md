@@ -1,4 +1,4 @@
-# JavaScript Programming Exercises
+# Near Earth Objects JavaScript Programming Exercise
 
 ## Overview
 This project demonstrates the use of JavaScript and Node.js to analyze and transform data about Near Earth Objects (NEOs) provided by NASA. The dataset, in JSON format, contains 202 objects representing various properties of NEOs, including observed magnitude, orbital properties, and classification as asteroids or comets. The program performs the following tasks in five steps:
