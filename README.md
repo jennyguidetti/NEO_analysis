@@ -67,9 +67,9 @@ calculateStats(jupiterPropertyValues):
 ### Step 5: Unit Testing
 Utilized the Jest framework to test program functions:
 - Checked valid and invalid inputs for findNeoByIndex and findNeoByDesignation.
-- Verified the correctness of calculateStats using .toMatchObject.
+- Verified the functions extractClassPropertyValues and calculateStats.
 
-Results of unit testing using jest:
+Results of unit testing:
 ![jest unit test results](./images/test_results.png)
 
 ## Key Findings
