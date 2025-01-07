@@ -32,8 +32,8 @@ Four key functions were developed:
 
 ### Step 3: Data Analysis
 - Created functions to analyze and compare NEO properties:
--- filterByPhaAndOrbitClass: Filters NEOs by both PHA status and orbit class.
-calculateStats: Computes maximum, minimum, and average values for orbital properties.
+    - filterByPhaAndOrbitClass: Filters NEOs by both PHA status and orbit class.
+    - calculateStats: Computes maximum, minimum, and average values for orbital properties.
 - Used console.table for formatted output to visualize comparisons.
 - Reverse-engineered definitions of NEO classifications (e.g., PHA criteria, asteroid/comet classes) using dataset analysis.
 
@@ -48,16 +48,16 @@ Utilized the Jest framework to test program functions:
 
 ## Key Findings
 1. Potentially Hazardous Asteroids (PHA):
-- Defined by observed magnitude ≤ 22.0 and MOID ≤ 0.05 AU.
-- PHAs exhibit smaller orbital properties compared to non-PHAs.
+    - Defined by observed magnitude ≤ 22.0 and MOID ≤ 0.05 AU.
+    - PHAs exhibit smaller orbital properties compared to non-PHAs.
 
 2. Asteroid Classes:
-- Apollo: Earth-crossing asteroids (most likely to be PHAs).
-- Amor: Orbits farther from Earth (least likely to be PHAs).
-- Aten: Smallest orbits and MOIDs.
+    - Apollo: Earth-crossing asteroids (most likely to be PHAs).
+    - Amor: Orbits farther from Earth (least likely to be PHAs).
+    - Aten: Smallest orbits and MOIDs.
 
 3. Comet Classes:
-- Identified unique orbital characteristics (e.g., Halley-type comets have the longest orbital inclinations).
+    - Identified unique orbital characteristics (e.g., Halley-type comets have the longest orbital inclinations).
 
 ## Technologies Used
 - JavaScript: Core programming language for data analysis and manipulation.
