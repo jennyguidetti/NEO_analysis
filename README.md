@@ -31,22 +31,32 @@ Node.js: Ensure you have Node.js installed on your system.[Download Node.js here
 
 ### Setting Up the Project:
 1. Clone this repository to your local machine:
-    - git clone <repository-url>
-    - cd <repository-folder>
+```base
+git clone <repository-url>
+cd <repository-folder>
+```
 2. Initialize the project with npm:
-     - npm init
+```
+npm init
+```
 When prompted:
     - Press Enter to accept defaults for most options.
     - Set the entry point to main.js (or the default index.js).
     - Set test command to jest.
-3. Install Jest for testing:
-    - npm install --save-dev jest
+3. Install Jest for testing
+```
+npm install --save-dev jest
+```
 
 ### Running the Application
 1. Run the main script:
-    - node main.js
+```
+node main.js
+```
 2. Run the Jest tests:
-    - npm test
+```
+npm test
+```
 
 ## Features
 ### Step 1: Loading JSON Data
