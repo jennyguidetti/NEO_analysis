@@ -69,6 +69,8 @@ Utilized the Jest framework to test program functions:
 - Checked valid and invalid inputs for findNeoByIndex and findNeoByDesignation.
 - Verified the correctness of calculateStats using .toMatchObject.
 
+Results of unit testing using jest:
+![jest unit test results](./images/test_results.png)
 
 ## Key Findings
 1. Potentially Hazardous Asteroids (PHA):
