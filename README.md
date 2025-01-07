@@ -27,7 +27,7 @@ This README outlines the structure, functionality, and development process of th
 To get started with the project, follow these steps:
 
 ### Prerequisites
-Node.js: Ensure you have Node.js installed on your system.[Download Node.js here](https://nodejs.org/en)
+Ensure you have Node.js installed on your system. [Download Node.js here](https://nodejs.org/en)
 
 ### Setting Up the Project:
 1. Clone this repository to your local machine:
@@ -39,7 +39,7 @@ cd <repository-folder>
 ```
 npm init
 ```
-When prompted:
+- When prompted:
     - Press Enter to accept defaults for most options.
     - Set the entry point to main.js (or the default index.js).
     - Set test command to jest.
