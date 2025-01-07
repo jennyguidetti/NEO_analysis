@@ -30,6 +30,14 @@ Four key functions were developed:
 - filterByPha: Filters NEOs that are classified as Potentially Hazardous Asteroids (PHA).
 - findNeoByDesignation: Searches for a NEO by its unique designation.
 
+results for functions using console.table:
+
+phaNeos:
+![filterByPha console.table result for all Phas](./images/phaNeos.png)
+
+findNeoByDesignation("419880 (2011 AH37)"):
+![filterNeoByDesignation console.table result](./images/findNeoByDesignation("419880%20(2011%20AH37)").png)
+
 ### Step 3: Data Analysis
 - Created functions to analyze and compare NEO properties:
     - filterByPhaAndOrbitClass: Filters NEOs by both PHA status and orbit class.
