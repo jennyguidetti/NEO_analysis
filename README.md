@@ -65,4 +65,4 @@ Utilized the Jest framework to test program functions:
 - Jest: Testing framework for unit tests.
 
 ## Conclusion
-This project demonstrates the practical application of JavaScript programming fundamentals, emphasizing the analysis, transformation, and testing of data. By systematically addressing each task, the assignment illustrates how simple functions and logical operations can handle complex datasets, offering insights into NEO classifications and characteristics.
+This project demonstrates the practical application of JavaScript programming fundamentals, emphasizing the analysis, transformation, and testing of data. By systematically addressing each task, the project illustrates how simple functions and logical operations can handle complex datasets, offering insights into NEO classifications and characteristics.
