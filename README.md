@@ -18,6 +18,36 @@ This README outlines the structure, functionality, and development process of th
 4. NEOWISE_Dataset.json: The original dataset provided for analysis.
 5. NEOWISE_classes.json: The rearranged JSON file sorted by NEO class type.
 
+## Technologies Used
+- JavaScript: Core programming language for data analysis and manipulation.
+- Node.js: Environment for file handling and JSON processing.
+- Jest: Testing framework for unit tests.
+
+## Installation and Setup
+To get started with the project, follow these steps:
+
+### Prerequisites
+Node.js: Ensure you have Node.js installed on your system.[Download Node.js here](https://nodejs.org/en)
+
+### Setting Up the Project:
+1. Clone this repository to your local machine:
+    git clone <repository-url>
+    cd <repository-folder>
+2. Initialize the project with npm:
+    npm init
+When prompted:
+    Press Enter to accept defaults for most options.
+    Set the entry point to main.js (or the default index.js).
+    Set test command to jest.
+3. Install Jest for testing:
+    npm install --save-dev jest
+
+### Running the Application
+1. Run the main script:
+    node main.js
+2. Run the Jest tests:
+    npm test
+
 ## Features
 ### Step 1: Loading JSON Data
 - The JSON file is read and parsed into a JavaScript object using Node.js.
@@ -84,11 +114,6 @@ Results of unit testing:
 
 3. Comet Classes:
     - Identified unique orbital characteristics (e.g., Halley-type comets have the longest orbital inclinations).
-
-## Technologies Used
-- JavaScript: Core programming language for data analysis and manipulation.
-- Node.js: Environment for file handling and JSON processing.
-- Jest: Testing framework for unit tests.
 
 ## Conclusion
 This project demonstrates the practical application of JavaScript programming fundamentals, emphasizing the analysis, transformation, and testing of data. By systematically addressing each task, the project illustrates how simple functions and logical operations can handle complex datasets, offering insights into NEO classifications and characteristics.
