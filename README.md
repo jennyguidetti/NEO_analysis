@@ -30,20 +30,32 @@ Four key functions were developed:
 - filterByPha: Filters NEOs that are classified as Potentially Hazardous Asteroids (PHA).
 - findNeoByDesignation: Searches for a NEO by its unique designation.
 
-Results for functions using console.table:
-
-filterByPha(true):
-![filterByPha console.table result for all Phas](./images/phaNeos.png)
-
-findNeoByDesignation("419880 (2011 AH37)"):
-![filterNeoByDesignation console.table result](./images/findNeoByDesignation("419880%20(2011%20AH37)").png)
-
 ### Step 3: Data Analysis
 - Created functions to analyze and compare NEO properties:
     - filterByPhaAndOrbitClass: Filters NEOs by both PHA status and orbit class.
     - calculateStats: Computes maximum, minimum, and average values for orbital properties.
 - Used console.table for formatted output to visualize comparisons.
 - Reverse-engineered definitions of NEO classifications (e.g., PHA criteria, asteroid/comet classes) using dataset analysis.
+
+Example Results for functions using console.table:
+
+filterByOrbitClass("Aten"):
+![table of all Atens](./images/filterByOrbitClass("Aten").png)
+
+filterByPha(true):
+![table of all Phas](./images/phaNeos.png)
+
+findNeoByDesignation("419880 (2011 AH37)"):
+![table of specific designation](./images/findNeoByDesignation("419880%20(2011%20AH37)").png)
+
+filterByPhaAndOrbitClass(true, "Aten"):
+![table of all Pha Atens](./images/filterByPhaAndOrbitClass(true,%20"Aten").png)
+
+filterByPhaAndOrbitClass(false, "Aten"):
+![table all non-Pha Atens](./images/filterByPhaAndOrbitClass(false,%20"Aten").png)
+
+calculateStats(phaPropertyValues):
+![table of max, min and average values for all Phas](./images/calculateStats(phaPropertyValues).png)
 
 ### Step 4: Changing JSON Format
 - Rearranged the dataset into arrays sorted by NEO class type.
