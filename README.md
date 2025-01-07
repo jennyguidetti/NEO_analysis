@@ -57,6 +57,9 @@ filterByPhaAndOrbitClass(false, "Aten"):
 calculateStats(phaPropertyValues):
 ![table of max, min and average values for all Phas](./images/calculateStats(phaPropertyValues).png)
 
+calculateStats(jupiterPropertyValues):
+![table of max, min and average values for all Jupiter comets](./images/calculateStats(jupiterPropertyValues).png)
+
 ### Step 4: Changing JSON Format
 - Rearranged the dataset into arrays sorted by NEO class type.
 - Saved the new structure into a JSON file (NEOWISE_classes.json) for improved accessibility and usability.
@@ -65,6 +68,7 @@ calculateStats(phaPropertyValues):
 Utilized the Jest framework to test program functions:
 - Checked valid and invalid inputs for findNeoByIndex and findNeoByDesignation.
 - Verified the correctness of calculateStats using .toMatchObject.
+
 
 ## Key Findings
 1. Potentially Hazardous Asteroids (PHA):
