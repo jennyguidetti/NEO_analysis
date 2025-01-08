@@ -79,25 +79,25 @@ Four key functions were developed:
 
 Example Results for functions using console.table:
 
-`filterByOrbitClass("Aten")`:
+**filterByOrbitClass("Aten")**:
 ![table of all Atens](./images/filterByOrbitClass("Aten").png)
 
-`filterByPha(true)`:
+**filterByPha(true)**:
 ![table of all Phas](./images/phaNeos.png)
 
-`findNeoByDesignation("419880 (2011 AH37)")`:
+**findNeoByDesignation("419880 (2011 AH37)")**:
 ![table of specific designation](./images/findNeoByDesignation("419880%20(2011%20AH37)").png)
 
-`filterByPhaAndOrbitClass(true, "Aten")`:
+**filterByPhaAndOrbitClass(true, "Aten")**:
 ![table of all Pha Atens](./images/filterByPhaAndOrbitClass(true,%20"Aten").png)
 
-`filterByPhaAndOrbitClass(false, "Aten")`:
+**filterByPhaAndOrbitClass(false, "Aten")**:
 ![table all non-Pha Atens](./images/filterByPhaAndOrbitClass(false,%20"Aten").png)
 
-`calculateStats(phaPropertyValues)`:
+**calculateStats(phaPropertyValues)**:
 ![table of max, min and average values for all Phas](./images/calculateStats(phaPropertyValues).png)
 
-`calculateStats(jupiterPropertyValues)`:
+**calculateStats(jupiterPropertyValues)**:
 ![table of max, min and average values for all Jupiter comets](./images/calculateStats(jupiterPropertyValues).png)
 
 ### Step 4: Changing JSON Format
